@@ -3,6 +3,33 @@ body {
     flex-direction: column;
     align-items: center;
 }
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div.searchBar{
+    display: flex;
+    align-items: flex-end;
+}
+
+button.submitBtn{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: medium;
+    margin-left: 3%;
+    margin-right: 3%;
+    transition: ease 0.3s;
+
+}
+button.submitBtn:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 3%;
+    transition: ease 0.3s;
+}
 #movie-container {
     display: flex;
     justify-content: center;
@@ -36,4 +63,21 @@ img {
 }
 img:hover {
     border-radius: 5px;
+}
+.movie-img2{
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    transition: ease 0.3s;
+}
+.movie-img2:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    margin: 3%;
+    transition: ease 0.3s;
 }
