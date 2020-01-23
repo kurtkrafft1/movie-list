@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#movie-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.movie-img {
+    display: flex;
+    width: 23%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    transition: ease 0.3s;
+}
+img {
+    min-width: 75%;
+    min-height: 65%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2%;
+}
+.movie-img:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    margin: 3%;
+    transition: ease 0.3s;
+}
+img:hover {
+    border-radius: 5px;
+}

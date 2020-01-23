@@ -1,0 +1,30 @@
+{
+    "movies": [
+        {   
+            "id": 1,
+            "title": "Hot Rod",
+            "Release Date": 2007,
+            "img": "https://images-na.ssl-images-amazon.com/images/I/51YylNA%2BdmL._AC_.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Free Willy",
+            "Release Date": 1993,
+            "img": "https://images-na.ssl-images-amazon.com/images/I/513TjvuGnqL.jpg"
+        },
+        {
+            "id": 3,
+            "title": "The Royal Tenenbaums",
+            "Release Date": 2001,
+            "img": "https://resizing.flixster.com/Hh6uiuJVsTk1H5sR_0vhZZkvc1A=/206x305/v1.bTsxMTIwODUxMTtqOzE4Mzk5OzEyMDA7MTUzNjsyMDQ4",
+            "director": "Wes Anderson"
+        },
+        {
+            "id": 4,
+            "title": "The Darjeeling Limited",
+            "Release Date": 2007,
+            "img": "http://www.gstatic.com/tv/thumb/v22vodart/168522/p168522_v_v8_ah.jpg",
+            "director": "Wes Anderson"
+        }
+    ]
+}
